@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*Reset*/
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:0px;
+}
+
+/*Main Styling*/
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height:1.7em;
+  scroll-behavior: smooth;
+
+}
+
+a{
+  text-decoration:none;
+  color:#333; 
+}
+
+p{
+  margin:20px 0px;
+}
+
+.btn{
+  font-size: 20px;
+  color:#fff;
+  background: #333;
+  padding: 20px 40px; 
+}
+.btn:hover{
+  background:#e4b008;
+  color:#fff;
+  font-weight: bold;
+}
+.container{
+  max-width:1100px;
+  display:flex;
+  justify-content:space-around; 
+   margin:auto;
+}
+/*Navbar*/
+#navbar{
+  position:fixed;
+  top:0px;
+  background:#333;
+  color:#fff;
+  z-index:2;
+  width:100%;
+  overflow: hidden;
+}
+
+#navbar h1 a{
+  color:#fff;
+  display:block;
+  padding:20px;
+}
+
+#navbar ul{
+  display:flex;
+  list-style:none;
+}
+#navbar ul li a{
+  display:block;
+  color:#fff;
+  font-size:18px;
+  
+  padding: 20px 13px;
+}
+
+
+#navbar h1 a i{
+  color:#ff2600;
+}
+#navbar ul li i{
+  color:#f8ce10;
+}
+
+#navbar ul li a:hover
+,#navbar ul li a.current{
+  background:#444;
+
+}
+/*Showcase*/
+#showcase{
+  background:url('../img/showcase222.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding-top:5%;
+}
+#showcase .my-card{
+  width:900px;
+  display: flex;
+  border:1px solid #80545d;
+  border-radius: 10px;
+  /* background:#ee8a38; */
+  color:#fff;
+  margin:70px auto;
+  opacity: 0.9;
+  padding:5px;
+  background: rgba(0,0,0,0.4);
+
+}
+
+#showcase img{
+  border-radius: 50%;
+}
+
+#showcase .my-card p{
+  font-size:24px;
+  line-height: 2em;
+  text-align: justify;
+
+}
+
+#showcase .content{
+  max-width: 830px;
+  margin:90px auto;
+  text-align:center;
+}
+
+#showcase .wisdom{  
+padding-bottom:50px;
+  font-size:40px;
+  color:#e4b008;
+  font-family:'Roboto';
+  font-weight: bold;
+  
+}
+
+/*footer*/
+footer{
+  background:rgb(255, 255, 255);
+  height: 300px;
+}
+
+footer ul{
+  padding-top:30px;
+  list-style:none;
+  display:flex;
+  justify-content:center;
+
+}
+footer ul li{
+  margin:30px;
+}
+
+.icon{
+  font-size:50px;
+  color:#e4b008;
+}
+
+footer ul li:hover{
+  border-radius: 5px;
+  background:#ddd;
+}
+
+footer p{
+  margin:50px;
+  color:#333;
+  font-family:Montserrat;
+  font-size:20px;
+  text-align:center; 
+  
+}
